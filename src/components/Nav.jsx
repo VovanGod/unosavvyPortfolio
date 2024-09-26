@@ -21,8 +21,8 @@ const Nav = () => {
                         </a>
                         <ul>
                             <li><a href="#face">Главная</a></li>
-                            <li><a href="#list">Обо мне</a></li>
-                            <li><a href="#footer">Проекты</a></li>
+                            <li><a href="#about">Обо мне</a></li>
+                            <li><a href="#projects">Проекты</a></li>
                             <li><a href="#footer">Сотрудничество</a></li>
                         </ul>
                         <button onClick={handleClick} className={!btn ? "burger" : "burger burger-active"}></button>

@@ -8,8 +8,7 @@ const Basic = () => {
 				<h2 className="basic-h2">frontend-разработчик</h2>
 				<div className="basic-txt">со страстью к обучению и творчеству.</div>
 
-				<button className="btn">Связаться со мной</button>
-				{/* onclick="document.location='#contacts'" */}
+				<a href='#footer' className="btn">Связаться со мной</a>
 			</div>
 
 			<div className="area" >

@@ -166,7 +166,7 @@ body {
   z-index: 3;
 }
 .basic .btn {
-  display: block;
+  display: inline-block;
   margin: 0 auto;
   position: relative;
   padding: 16px 20px;
@@ -1212,7 +1212,6 @@ h1 span {
   }
   .projects .card-title {
     font-size: 22px;
-    margin-left: 0;
   }
 }
 @media (max-width: 400px) {
