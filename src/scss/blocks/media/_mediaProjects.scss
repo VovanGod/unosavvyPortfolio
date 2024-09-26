@@ -1,0 +1,32 @@
+@media (max-width: 620px) {
+    .projects {
+        padding: 60px 0;
+
+        .card {
+            width: 360px;
+            text-align: center;
+            padding-bottom: 16px;
+        }
+
+        .card-title {
+            font-size: 22px;
+            margin-left: 0;
+        }
+    }
+}
+
+@media (max-width: 400px) {
+    .projects {
+        &-wrapper {
+            margin-top: 40px;
+        }
+        .card {
+            width: 300px;
+            text-align: center;
+        }
+
+        .card-title {
+            font-size: 20px;
+        }
+    }
+}

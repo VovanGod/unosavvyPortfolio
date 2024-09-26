@@ -1,0 +1,32 @@
+@media (max-width: 600px) {
+    .navbar {
+        .logo {
+            font-size: 25px;
+            column-gap: 5px;
+
+            img {
+                width: 25px;
+            }
+        }
+
+        .burger {
+            width: 35px;
+        }
+    }
+}
+
+@media (max-width: 1000px) {
+    .navbar {
+        ul {
+            display: none;
+        }
+
+        .burger {
+            display: block;
+        }
+
+        .navbar-wrap {
+            justify-content: space-around;
+        }
+    }
+}

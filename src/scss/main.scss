@@ -1,0 +1,22 @@
+/* Base */
+@import "./base/reset";
+@import "./base/vars";
+@import "./base/base";
+@import "./base/utils";
+@import "./base/containers";
+
+
+/* Blocks */
+@import "./blocks/basic";
+@import "./blocks/rectangles";
+@import "./blocks/navbar";
+@import "./blocks/modal";
+@import "./blocks/about";
+@import "./blocks/projects";
+@import "./blocks/footer";
+
+/* Media */
+@import "./blocks/media/mediaBasic";
+@import "./blocks/media/mediaNav";
+@import "./blocks/media/mediaAbout";
+@import "./blocks/media/mediaProjects";

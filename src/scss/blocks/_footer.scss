@@ -1,0 +1,93 @@
+.footer {
+    position: relative;
+    padding: 80px 0 40px 0;
+    background: #1e242c;
+
+    .scroll {
+        display: block;
+        padding: 6px;
+        width: 50px;
+        height: 50px;
+        background: #5c62ec;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 6px;
+
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: -25px;
+        transition: background 0.15s ease-in;
+
+        &:hover {
+            background: #00a1a7;
+        }
+
+        img {
+            display: block;
+        }
+    }
+
+    &-wrapper {
+        display: flex;
+        column-gap: 50px;
+        justify-content: center;
+    }
+
+    .card {
+        width: 60px;
+        height: 60px;
+        background: #262f38;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 6px;
+        transition: background 0.15s ease-in, margin-top 0.2s ease-in-out;
+
+        img  {
+            width: 40px;
+        }
+    }
+
+    .card-w {
+        img {
+            width: 52px;
+            margin-left: 4px;
+        }
+    }
+
+    &_me {
+        color: #8f9aa7;
+        text-align: center;
+        margin-top: 40px;
+        letter-spacing: 0.8px;
+
+        span {
+            color: #5c62ec;
+            margin-left: 4px;
+        }
+    }
+
+    &_href {
+        transition: all 0.2s ease-in-out;
+        &:hover {
+            margin-top: -8px;
+            padding-bottom: 8px;
+        }
+
+        &:hover .card {
+            background: #00a1a7;
+        }
+    }
+}
+
+@media (max-width: 500px) {
+    .footer {
+        .card, .card-w {
+            img {
+                width: 30px;
+            }
+        }
+    }
+}

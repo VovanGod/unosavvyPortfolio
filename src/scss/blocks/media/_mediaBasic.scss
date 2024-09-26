@@ -1,0 +1,63 @@
+@media (max-width: 1000px) {
+    .basic {
+      h1 {
+        font-size: 50px;
+      }
+
+      &-h2 {
+        font-size: 30px;
+      }
+
+      &-txt {
+        margin: 20px 0 40px 0;
+      }
+
+      .btn {
+        padding: 12px 16px;
+      }
+    }
+  }
+
+  @media (max-width: 600px) {
+    .basic {
+      h1 {
+        font-size: 40px;
+      }
+
+      &-h2 {
+        font-size: 20px;
+      }
+
+      &-txt {
+        margin: 20px 0;
+      }
+
+      .btn {
+        padding: 10px 12px;
+        font-size: 14px;
+      }
+    }
+  }
+
+  @media (max-width: 425px) {
+    .basic {
+      h1 {
+        font-size: 30px;
+      }
+
+      &-h2 {
+        font-size: 17px;
+        margin-top: 10px;
+      }
+
+      &-txt {
+        margin: 20px 0;
+        font-size: 16px;
+      }
+    }
+
+    .btn {
+      padding: 12px 16px;
+      font-size: 14px;
+    }
+}

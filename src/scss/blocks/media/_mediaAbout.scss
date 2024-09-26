@@ -1,0 +1,71 @@
+@media (max-width: 999px) {
+    .about {
+        padding: 70px 0;
+        .me-wrapper {
+            margin-top: 60px;
+        }
+
+        .card-wrapper {
+            margin-top: 80px;
+        }
+    }
+}
+
+@media (max-width: 700px) {
+    .h2 {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 576px) {
+    .about {
+
+        .card-wrapper {
+            margin-top: 80px;
+        }
+
+        .stat {
+            width: 300px;
+        }
+
+        .level {
+            width: 160px;
+            left: 90px;
+        }
+
+        .middle {
+            width: 120px;
+        }
+
+        .upper {
+            width: 140px;
+        }
+
+        .language {
+            width: 90px;
+            font-size: 15px;
+        }
+    }
+}
+
+@media (max-width: 400px) {
+    .about {
+
+        .card-wrapper {
+            margin-top: 60px;
+        }
+
+        .photo {
+            width: 240px;
+            height: 232px;
+        }
+
+        .card-title {
+            font-size: 20px;
+        }
+
+        .card-txt {
+            font-size: 14px;
+        }
+    }
+}
