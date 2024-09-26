@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/VovanGod/unosavvyPortfolio/static/css/main.d955087f.css",
+    "main.js": "/VovanGod/unosavvyPortfolio/static/js/main.45a00626.js",
+    "index.html": "/VovanGod/unosavvyPortfolio/index.html",
+    "main.d955087f.css.map": "/VovanGod/unosavvyPortfolio/static/css/main.d955087f.css.map",
+    "main.45a00626.js.map": "/VovanGod/unosavvyPortfolio/static/js/main.45a00626.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d955087f.css",
+    "static/js/main.45a00626.js"
+  ]
+}
