@@ -16,10 +16,6 @@ const PrCard = () => {
     }, [])
     return (
         <div className="projects-wrapper">
-            <a href={`https://vovangod.github.io/sliderMiami/`} target='_blank' class="cardA">
-			    <img src={`./img/project-1.png`} alt="image"/>
-			    <div class="card-title">Современный слайдер</div>
-		    </a>
             <a href={`https://vovangod.github.io/Pioner/`} target='_blank' class="cardA">
                 <img src={`./img/project-2.png`} alt="image"/>
                 <div class="card-title">Завод силовых машин</div>
@@ -40,6 +36,10 @@ const PrCard = () => {
                 <img src={`./img/project-6.png`} alt="image"/>
                 <div class="card-title">Авто регионы</div>
             </a>
+            <a href={`https://vovangod.github.io/sliderMiami/`} target='_blank' class="cardA">
+			    <img src={`./img/project-1.png`} alt="image"/>
+			    <div class="card-title">Современный слайдер</div>
+		    </a>
         </div>
         
     );

@@ -13,7 +13,7 @@ const Modal = ({visible, setVisible, setBtn}) => {
                 <div className="modal">
                     <img src="img/klen.svg" alt="klen-list" />
                     <ul>
-                        <li><a href="#face">Главная</a></li>
+                        <li><a href="./">Главная</a></li>
                         <li><a href="#about">Обо мне</a></li>
                         <li><a href="#projects">Проекты</a></li>
                         <li><a href="#footer">Сотрудничество</a></li>
