@@ -16,6 +16,14 @@ const PrCard = () => {
     }, [])
     return (
         <div className="projects-wrapper">
+            <a href={`https://vovangod.github.io/autoRegions/`} target='_blank' class="cardA">
+                <img src={`./img/project-6.png`} alt="image"/>
+                <div class="card-title">Авто регионы</div>
+            </a>
+            <a href={`https://vovangod.github.io/Drupal-coder/`} target='_blank' class="cardA">
+                <img src={`./img/drupalCoder.png`} alt="image"/>
+                <div class="card-title">Поддержка сайтов</div>
+            </a>
             <a href={`https://vovangod.github.io/Pioner/`} target='_blank' class="cardA">
                 <img src={`./img/project-2.png`} alt="image"/>
                 <div class="card-title">Завод силовых машин</div>
@@ -31,10 +39,6 @@ const PrCard = () => {
             <a href={`https://vovangod.github.io/Lawyers5/`} target='_blank' class="cardA">
                 <img src={`./img/project-5.png`} alt="image"/>
                 <div class="card-title">Юридическая компания</div>
-            </a>
-            <a href={`https://vovangod.github.io/autoRegions/`} target='_blank' class="cardA">
-                <img src={`./img/project-6.png`} alt="image"/>
-                <div class="card-title">Авто регионы</div>
             </a>
             <a href={`https://vovangod.github.io/sliderMiami/`} target='_blank' class="cardA">
 			    <img src={`./img/project-1.png`} alt="image"/>
