@@ -98,7 +98,8 @@ html {
 }
 
 body {
-  background-color: linear-gradient(to left, #3a4450, #1e242c);
+  background: -webkit-gradient(linear, right top, left top, from(#3a4450), to(#1e242c));
+  background: linear-gradient(to left, #3a4450, #1e242c);
   color: var(--text-color);
   font-family: "Open Sans", sans-serif;
   overflow-x: hidden;
