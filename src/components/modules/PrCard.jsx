@@ -36,10 +36,6 @@ const PrCard = () => {
                 <img src={`./img/project-4.png`} alt="image"/>
                 <div class="card-title">Популярный ГИД</div>
             </a>
-            <a href={`https://vovangod.github.io/Lawyers5/`} target='_blank' class="cardA">
-                <img src={`./img/project-5.png`} alt="image"/>
-                <div class="card-title">Юридическая компания</div>
-            </a>
             <a href={`https://vovangod.github.io/sliderMiami/`} target='_blank' class="cardA">
 			    <img src={`./img/project-1.png`} alt="image"/>
 			    <div class="card-title">Современный слайдер</div>
