@@ -27,7 +27,7 @@ const Footer = () => {
 				</div>
 
 				<div class="footer_me">
-					Unosavvy <span>©2024</span>
+					Unosavvy <span>©2025</span>
 				</div>
 			</div>
 		</footer>
